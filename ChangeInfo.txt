@@ -1,0 +1,12 @@
+// Added API_Version parameter in plugin.yml
+// Use spigot-api-1.15-R0.1-SNAPSHOT-shaded.jar
+// Updated some code to use this snapshot jar.
+// affected modules: Metrics, UUIDFetchter and NameFetcher
+// Added SetPlayerHidden on not logged on, Player is SetVisible on correct Login.
+// Added "Execute Console Command" on Join, Logout and correct Login and Disconnect. 
+// Console Commands are executed using the AmkMcAuth Queue system, possibly preventing some lag.
+
+Waar komt deze melding vandaan??
+[22:18:26] [User Authenticator #15/INFO]: UUID of player martie is 364ebcc0-9007-3811-b217-180f5074c635
+[22:18:26] [Server thread/INFO]: [AmkMcAuth] martie: PlayerName already registered with different Character-Case!
+//Solution on then Error: (Unregister, not registered), Just Register UserId. 
